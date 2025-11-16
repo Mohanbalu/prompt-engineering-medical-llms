@@ -1,0 +1,15 @@
+id,prompt_type,question,model_output,final_detected_answer,correct_answer,correct,hallucination,timestamp
+1,zero_shot,"A 45-year-old woman presents with fatigue, pallor, and pica. Labs show Hb 8.9 g/dL, MCV 68 fL. What is the most likely diagnosis?",ERROR,,A,False,True,2025-11-16T19:19:15.428525
+2,zero_shot,A 62-year-old smoker presents with chronic productive cough for 3 years and prolonged expiratory phase on exam. What is the likely diagnosis?,ERROR,,B,False,True,2025-11-16T19:19:21.563040
+3,zero_shot,"A 30-year-old man presents with polyuria, polydipsia, and fasting glucose of 152 mg/dL. BMI is 28. What is the most likely diagnosis?",ERROR,,B,False,True,2025-11-16T19:19:27.705736
+4,zero_shot,A 23-year-old woman presents with sudden severe RLQ pain and cervical motion tenderness. Pregnancy test is negative. Diagnosis?,ERROR,,C,False,True,2025-11-16T19:19:33.942280
+5,zero_shot,A 70-year-old hypertensive man presents with unilateral facial droop sparing the forehead. Diagnosis?,ERROR,,B,False,True,2025-11-16T19:19:40.110043
+6,zero_shot,"A 55-year-old man presents with chest pain relieved by rest, lasting 5 minutes during exertion. Likely diagnosis?",ERROR,,A,False,True,2025-11-16T19:19:46.241737
+7,zero_shot,A 26-year-old man presents with recurrent watery diarrhea after recent travel to India. Stool shows cysts and trophozoites. Cause?,ERROR,,A,False,True,2025-11-16T19:19:52.432295
+8,zero_shot,"A 48-year-old woman presents with heat intolerance, weight loss, tremors, and exophthalmos. Diagnosis?",ERROR,,C,False,True,2025-11-16T19:19:58.600579
+9,zero_shot,"A 67-year-old man presents with progressive resting tremor, bradykinesia, and shuffling gait. Likely diagnosis?",ERROR,,A,False,True,2025-11-16T19:20:04.733150
+10,zero_shot,A 25-year-old woman presents with dysuria and increased frequency. Urinalysis shows leukocyte esterase positive. Diagnosis?,ERROR,,A,False,True,2025-11-16T19:20:10.911510
+11,zero_shot,A 50-year-old alcoholic presents with epigastric pain radiating to the back. Amylase elevated.,ERROR,,A,False,True,2025-11-16T19:20:17.071151
+12,zero_shot,A 35-year-old man has sudden onset pleuritic chest pain and dyspnea. D-dimer elevated.,ERROR,,A,False,True,2025-11-16T19:20:23.202876
+13,zero_shot,"A 22-year-old woman has fever, neck stiffness, and photophobia. Kernig sign positive.",ERROR,,A,False,True,2025-11-16T19:20:29.331275
+14,zero_shot,"A 40-year-old man has polyuria, hypernatremia, and dilute urine. Diagnosis?",ERROR,,A,False,True,2025-11-16T19:24:18.167594

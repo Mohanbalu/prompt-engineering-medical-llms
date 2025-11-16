@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "question": "A 45-year-old woman presents with fatigue, pallor, and pica. Labs show Hb 8.9 g/dL, MCV 68 fL. What is the most likely diagnosis?",
+        "options": {
+            "A": "Iron deficiency anemia",
+            "B": "Thalassemia minor",
+            "C": "Anemia of chronic disease",
+            "D": "Sideroblastic anemia"
+        },
+        "answer": "A",
+        "explanation": "Microcytic anemia + pica strongly supports iron deficiency."
+    },
+    {
+        "id": 2,
+        "question": "A 62-year-old smoker presents with chronic productive cough for 3 years and prolonged expiratory phase on exam. What is the likely diagnosis?",
+        "options": {
+            "A": "Emphysema",
+            "B": "Chronic bronchitis",
+            "C": "Asthma",
+            "D": "Bronchiectasis"
+        },
+        "answer": "B",
+        "explanation": "Chronic productive cough for \u22653 months per year for \u22652 years = chronic bronchitis."
+    },
+    {
+        "id": 3,
+        "question": "A 30-year-old man presents with polyuria, polydipsia, and fasting glucose of 152 mg/dL. BMI is 28. What is the most likely diagnosis?",
+        "options": {
+            "A": "Type 1 diabetes",
+            "B": "Type 2 diabetes",
+            "C": "Diabetes insipidus",
+            "D": "Metabolic syndrome"
+        },
+        "answer": "B",
+        "explanation": "Adult onset, mild obesity, hyperglycemia = Type 2 diabetes."
+    },
+    {
+        "id": 4,
+        "question": "A 23-year-old woman presents with sudden severe RLQ pain and cervical motion tenderness. Pregnancy test is negative. Diagnosis?",
+        "options": {
+            "A": "Appendicitis",
+            "B": "Ectopic pregnancy",
+            "C": "Pelvic inflammatory disease",
+            "D": "Ovarian torsion"
+        },
+        "answer": "C",
+        "explanation": "CMT + pelvic pain in a young woman suggests PID."
+    },
+    {
+        "id": 5,
+        "question": "A 70-year-old hypertensive man presents with unilateral facial droop sparing the forehead. Diagnosis?",
+        "options": {
+            "A": "Bell\u2019s palsy",
+            "B": "Stroke (UMN lesion)",
+            "C": "Guillain-Barr\u00e9 syndrome",
+            "D": "Myasthenia gravis"
+        },
+        "answer": "B",
+        "explanation": "Forehead sparing = UMN lesion \u2192 stroke."
+    },
+    {
+        "id": 6,
+        "question": "A 55-year-old man presents with chest pain relieved by rest, lasting 5 minutes during exertion. Likely diagnosis?",
+        "options": {
+            "A": "Stable angina",
+            "B": "Unstable angina",
+            "C": "NSTEMI",
+            "D": "Aortic dissection"
+        },
+        "answer": "A",
+        "explanation": "Predictable exertional chest pain relieved by rest = stable angina."
+    },
+    {
+        "id": 7,
+        "question": "A 26-year-old man presents with recurrent watery diarrhea after recent travel to India. Stool shows cysts and trophozoites. Cause?",
+        "options": {
+            "A": "Giardia lamblia",
+            "B": "E. histolytica",
+            "C": "C. difficile",
+            "D": "Salmonella"
+        },
+        "answer": "A",
+        "explanation": "Giardia causes watery diarrhea and cysts/trophozoites in stool."
+    },
+    {
+        "id": 8,
+        "question": "A 48-year-old woman presents with heat intolerance, weight loss, tremors, and exophthalmos. Diagnosis?",
+        "options": {
+            "A": "Hashimoto thyroiditis",
+            "B": "Subacute thyroiditis",
+            "C": "Graves\u2019 disease",
+            "D": "Toxic nodular goiter"
+        },
+        "answer": "C",
+        "explanation": "Exophthalmos is characteristic of Graves\u2019 disease."
+    },
+    {
+        "id": 9,
+        "question": "A 67-year-old man presents with progressive resting tremor, bradykinesia, and shuffling gait. Likely diagnosis?",
+        "options": {
+            "A": "Parkinson\u2019s disease",
+            "B": "Essential tremor",
+            "C": "ALS",
+            "D": "Multiple sclerosis"
+        },
+        "answer": "A",
+        "explanation": "Resting tremor + shuffling gait = Parkinson\u2019s."
+    },
+    {
+        "id": 10,
+        "question": "A 25-year-old woman presents with dysuria and increased frequency. Urinalysis shows leukocyte esterase positive. Diagnosis?",
+        "options": {
+            "A": "Cystitis",
+            "B": "Pyelonephritis",
+            "C": "Urethritis",
+            "D": "Kidney stone"
+        },
+        "answer": "A",
+        "explanation": "Classic dysuria + LE positive = cystitis."
+    },
+    {
+        "id": 11,
+        "question": "A 50-year-old alcoholic presents with epigastric pain radiating to the back. Amylase elevated.",
+        "options": {
+            "A": "Acute pancreatitis",
+            "B": "Peptic ulcer",
+            "C": "GERD",
+            "D": "Cholecystitis"
+        },
+        "answer": "A",
+        "explanation": "Epigastric pain radiating to back + alcohol = pancreatitis."
+    },
+    {
+        "id": 12,
+        "question": "A 35-year-old man has sudden onset pleuritic chest pain and dyspnea. D-dimer elevated.",
+        "options": {
+            "A": "Pulmonary embolism",
+            "B": "Pneumothorax",
+            "C": "ARDS",
+            "D": "CHF"
+        },
+        "answer": "A",
+        "explanation": "Pleuritic pain + dyspnea + high D-dimer = PE."
+    },
+    {
+        "id": 13,
+        "question": "A 22-year-old woman has fever, neck stiffness, and photophobia. Kernig sign positive.",
+        "options": {
+            "A": "Bacterial meningitis",
+            "B": "Viral encephalitis",
+            "C": "Migraine",
+            "D": "Subarachnoid hemorrhage"
+        },
+        "answer": "A",
+        "explanation": "Classic meningitis triad."
+    },
+    {
+        "id": 14,
+        "question": "A 40-year-old man has polyuria, hypernatremia, and dilute urine. Diagnosis?",
+        "options": {
+            "A": "Diabetes insipidus",
+            "B": "SIADH",
+            "C": "DKA",
+            "D": "Addison disease"
+        },
+        "answer": "A",
+        "explanation": "Dilute urine + hypernatremia = DI."
+    },
+    {
+        "id": 15,
+        "question": "A 72-year-old woman with bone pain and elevated ALP with normal calcium.",
+        "options": {
+            "A": "Paget disease",
+            "B": "Osteoporosis",
+            "C": "Hyperparathyroidism",
+            "D": "Multiple myeloma"
+        },
+        "answer": "A",
+        "explanation": "High ALP + bone pain = Paget."
+    },
+    {
+        "id": 16,
+        "question": "A 32-year-old woman presents with malar rash worsened by sunlight.",
+        "options": {
+            "A": "SLE",
+            "B": "Rosacea",
+            "C": "Dermatitis",
+            "D": "Drug reaction"
+        },
+        "answer": "A",
+        "explanation": "Malar rash = SLE."
+    },
+    {
+        "id": 17,
+        "question": "A 70-year-old man presents with urinary hesitancy and weak stream.",
+        "options": {
+            "A": "BPH",
+            "B": "Prostate cancer",
+            "C": "UTI",
+            "D": "Neurogenic bladder"
+        },
+        "answer": "A",
+        "explanation": "Classic BPH symptoms."
+    },
+    {
+        "id": 18,
+        "question": "A 28-year-old man presents with migratory polyarthritis and a target rash.",
+        "options": {
+            "A": "Lyme disease",
+            "B": "Rheumatoid arthritis",
+            "C": "SLE",
+            "D": "Gout"
+        },
+        "answer": "A",
+        "explanation": "Target rash = Lyme."
+    },
+    {
+        "id": 19,
+        "question": "A 45-year-old man presents with RUQ pain, fever, jaundice (Charcot triad).",
+        "options": {
+            "A": "Cholangitis",
+            "B": "Cholecystitis",
+            "C": "Pancreatitis",
+            "D": "Hepatitis"
+        },
+        "answer": "A",
+        "explanation": "Charcot triad = cholangitis."
+    },
+    {
+        "id": 20,
+        "question": "A 29-year-old woman with new-onset anxiety, palpitations, and elevated free T4.",
+        "options": {
+            "A": "Hyperthyroidism",
+            "B": "Hypothyroidism",
+            "C": "Pheochromocytoma",
+            "D": "Cushing syndrome"
+        },
+        "answer": "A",
+        "explanation": "High T4 = hyperthyroidism."
+    }
+]

@@ -1,0 +1,21 @@
+id,question,A,B,C,D,answer,explanation
+1,"A 45-year-old woman presents with fatigue, pallor, and pica. Labs show Hb 8.9 g/dL, MCV 68 fL. What is the most likely diagnosis?",Iron deficiency anemia,Thalassemia minor,Anemia of chronic disease,Sideroblastic anemia,A,Microcytic anemia + pica strongly supports iron deficiency.
+2,A 62-year-old smoker presents with chronic productive cough for 3 years and prolonged expiratory phase on exam. What is the likely diagnosis?,Emphysema,Chronic bronchitis,Asthma,Bronchiectasis,B,Chronic productive cough for ≥3 months per year for ≥2 years = chronic bronchitis.
+3,"A 30-year-old man presents with polyuria, polydipsia, and fasting glucose of 152 mg/dL. BMI is 28. What is the most likely diagnosis?",Type 1 diabetes,Type 2 diabetes,Diabetes insipidus,Metabolic syndrome,B,"Adult onset, mild obesity, hyperglycemia = Type 2 diabetes."
+4,A 23-year-old woman presents with sudden severe RLQ pain and cervical motion tenderness. Pregnancy test is negative. Diagnosis?,Appendicitis,Ectopic pregnancy,Pelvic inflammatory disease,Ovarian torsion,C,CMT + pelvic pain in a young woman suggests PID.
+5,A 70-year-old hypertensive man presents with unilateral facial droop sparing the forehead. Diagnosis?,Bell’s palsy,Stroke (UMN lesion),Guillain-Barré syndrome,Myasthenia gravis,B,Forehead sparing = UMN lesion → stroke.
+6,"A 55-year-old man presents with chest pain relieved by rest, lasting 5 minutes during exertion. Likely diagnosis?",Stable angina,Unstable angina,NSTEMI,Aortic dissection,A,Predictable exertional chest pain relieved by rest = stable angina.
+7,A 26-year-old man presents with recurrent watery diarrhea after recent travel to India. Stool shows cysts and trophozoites. Cause?,Giardia lamblia,E. histolytica,C. difficile,Salmonella,A,Giardia causes watery diarrhea and cysts/trophozoites in stool.
+8,"A 48-year-old woman presents with heat intolerance, weight loss, tremors, and exophthalmos. Diagnosis?",Hashimoto thyroiditis,Subacute thyroiditis,Graves’ disease,Toxic nodular goiter,C,Exophthalmos is characteristic of Graves’ disease.
+9,"A 67-year-old man presents with progressive resting tremor, bradykinesia, and shuffling gait. Likely diagnosis?",Parkinson’s disease,Essential tremor,ALS,Multiple sclerosis,A,Resting tremor + shuffling gait = Parkinson’s.
+10,A 25-year-old woman presents with dysuria and increased frequency. Urinalysis shows leukocyte esterase positive. Diagnosis?,Cystitis,Pyelonephritis,Urethritis,Kidney stone,A,Classic dysuria + LE positive = cystitis.
+11,A 50-year-old alcoholic presents with epigastric pain radiating to the back. Amylase elevated.,Acute pancreatitis,Peptic ulcer,GERD,Cholecystitis,A,Epigastric pain radiating to back + alcohol = pancreatitis.
+12,A 35-year-old man has sudden onset pleuritic chest pain and dyspnea. D-dimer elevated.,Pulmonary embolism,Pneumothorax,ARDS,CHF,A,Pleuritic pain + dyspnea + high D-dimer = PE.
+13,"A 22-year-old woman has fever, neck stiffness, and photophobia. Kernig sign positive.",Bacterial meningitis,Viral encephalitis,Migraine,Subarachnoid hemorrhage,A,Classic meningitis triad.
+14,"A 40-year-old man has polyuria, hypernatremia, and dilute urine. Diagnosis?",Diabetes insipidus,SIADH,DKA,Addison disease,A,Dilute urine + hypernatremia = DI.
+15,A 72-year-old woman with bone pain and elevated ALP with normal calcium.,Paget disease,Osteoporosis,Hyperparathyroidism,Multiple myeloma,A,High ALP + bone pain = Paget.
+16,A 32-year-old woman presents with malar rash worsened by sunlight.,SLE,Rosacea,Dermatitis,Drug reaction,A,Malar rash = SLE.
+17,A 70-year-old man presents with urinary hesitancy and weak stream.,BPH,Prostate cancer,UTI,Neurogenic bladder,A,Classic BPH symptoms.
+18,A 28-year-old man presents with migratory polyarthritis and a target rash.,Lyme disease,Rheumatoid arthritis,SLE,Gout,A,Target rash = Lyme.
+19,"A 45-year-old man presents with RUQ pain, fever, jaundice (Charcot triad).",Cholangitis,Cholecystitis,Pancreatitis,Hepatitis,A,Charcot triad = cholangitis.
+20,"A 29-year-old woman with new-onset anxiety, palpitations, and elevated free T4.",Hyperthyroidism,Hypothyroidism,Pheochromocytoma,Cushing syndrome,A,High T4 = hyperthyroidism.

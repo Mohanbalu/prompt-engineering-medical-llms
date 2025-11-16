@@ -1,0 +1,8 @@
+prompt,total_questions,correct,incorrect,accuracy_%,hallucinations,hallucination_rate_%
+cot,80,56,24,70.0,40,50.0
+few_shot,80,34,46,42.5,58,72.5
+instruction_heavy,80,57,23,71.25,39,48.75
+safety,40,31,9,77.5,4,10.0
+self_consistency,60,35,25,58.33,40,66.67
+self_verification,60,58,2,96.67,19,31.67
+zero_shot,114,31,83,27.19,77,67.54

@@ -1,0 +1,21 @@
+id,prompt_type,question,model_output,detected_answer,correct_answer,correct,hallucination,timestamp
+1,instruction_heavy,"A 45-year-old woman presents with fatigue, pallor, and pica. Labs show Hb 8.9 g/dL, MCV 68 fL. What is the most likely diagnosis?",A,A,A,True,False,2025-11-16T20:35:35.014865
+2,instruction_heavy,A 62-year-old smoker presents with chronic productive cough for 3 years and prolonged expiratory phase on exam. What is the likely diagnosis?,B,B,B,True,False,2025-11-16T20:35:41.489913
+3,instruction_heavy,"A 30-year-old man presents with polyuria, polydipsia, and fasting glucose of 152 mg/dL. BMI is 28. What is the most likely diagnosis?",B,B,B,True,False,2025-11-16T20:35:47.953377
+4,instruction_heavy,A 23-year-old woman presents with sudden severe RLQ pain and cervical motion tenderness. Pregnancy test is negative. Diagnosis?,C,C,C,True,False,2025-11-16T20:35:54.353460
+5,instruction_heavy,A 70-year-old hypertensive man presents with unilateral facial droop sparing the forehead. Diagnosis?,B,B,B,True,False,2025-11-16T20:36:00.773935
+6,instruction_heavy,"A 55-year-old man presents with chest pain relieved by rest, lasting 5 minutes during exertion. Likely diagnosis?",A,A,A,True,False,2025-11-16T20:36:07.054174
+7,instruction_heavy,A 26-year-old man presents with recurrent watery diarrhea after recent travel to India. Stool shows cysts and trophozoites. Cause?,B,B,A,False,False,2025-11-16T20:36:13.414816
+8,instruction_heavy,"A 48-year-old woman presents with heat intolerance, weight loss, tremors, and exophthalmos. Diagnosis?",C,C,C,True,False,2025-11-16T20:36:19.975305
+9,instruction_heavy,"A 67-year-old man presents with progressive resting tremor, bradykinesia, and shuffling gait. Likely diagnosis?",A,A,A,True,False,2025-11-16T20:36:26.546808
+10,instruction_heavy,A 25-year-old woman presents with dysuria and increased frequency. Urinalysis shows leukocyte esterase positive. Diagnosis?,A,A,A,True,False,2025-11-16T20:36:33.103193
+11,instruction_heavy,A 50-year-old alcoholic presents with epigastric pain radiating to the back. Amylase elevated.,A,A,A,True,False,2025-11-16T20:36:39.550846
+12,instruction_heavy,A 35-year-old man has sudden onset pleuritic chest pain and dyspnea. D-dimer elevated.,A,A,A,True,False,2025-11-16T20:36:46.056097
+13,instruction_heavy,"A 22-year-old woman has fever, neck stiffness, and photophobia. Kernig sign positive.",A,A,A,True,False,2025-11-16T20:36:52.616179
+14,instruction_heavy,"A 40-year-old man has polyuria, hypernatremia, and dilute urine. Diagnosis?",A,A,A,True,False,2025-11-16T20:36:59.016500
+15,instruction_heavy,A 72-year-old woman with bone pain and elevated ALP with normal calcium.,A,A,A,True,False,2025-11-16T20:37:05.416741
+16,instruction_heavy,A 32-year-old woman presents with malar rash worsened by sunlight.,A,A,A,True,False,2025-11-16T20:37:11.976454
+17,instruction_heavy,A 70-year-old man presents with urinary hesitancy and weak stream.,A,A,A,True,False,2025-11-16T20:37:18.376245
+18,instruction_heavy,A 28-year-old man presents with migratory polyarthritis and a target rash.,A,A,A,True,False,2025-11-16T20:37:24.938553
+19,instruction_heavy,"A 45-year-old man presents with RUQ pain, fever, jaundice (Charcot triad).",A,A,A,True,False,2025-11-16T20:37:31.366317
+20,instruction_heavy,"A 29-year-old woman with new-onset anxiety, palpitations, and elevated free T4.",A,A,A,True,False,2025-11-16T20:37:37.737712

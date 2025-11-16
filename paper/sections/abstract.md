@@ -1,0 +1,7 @@
+# Abstract
+
+Accurate medical diagnosis using Large Language Models (LLMs) depends heavily on prompt design, especially when models operate under safety constraints and demonstrate varying levels of hallucination. This study evaluates the diagnostic accuracy and hallucination behavior of Google’s Gemini 2.0 Flash model across seven prompting strategies on a curated dataset of multiple-choice medical questions. The evaluated prompts include Zero-Shot, Instruction-Heavy, Few-Shot, Chain-of-Thought (CoT), Self-Consistency, Self-Verification, and Safety-Constrained prompting.
+
+A structured experimental pipeline was developed to ensure reproducibility, incorporating automated prompt execution, multi-API key rotation to overcome rate limits, self-consistency sampling, hallucination detection, and model output evaluation. Results indicate substantial performance differences among prompting methods. Instruction-Heavy and Few-Shot prompting achieved the highest diagnostic accuracy, while Safety-Constrained and Self-Verification prompts showed the lowest hallucination rates. CoT improved reasoning depth but occasionally increased verbosity and non-deterministic answers. 
+
+Overall, the findings highlight how careful prompt selection can significantly improve reliability in LLM-based diagnostic systems. The study provides a reproducible framework for future evaluation of medical prompting techniques and demonstrates the feasibility of using lightweight LLMs for clinical-style question answering with controlled hallucinations.

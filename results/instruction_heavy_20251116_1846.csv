@@ -1,0 +1,21 @@
+id,prompt_type,question,model_output,correct_answer,correct,hallucination
+1,instruction_heavy,"A 45-year-old woman presents with fatigue, pallor, and pica. Labs show Hb 8.9 g/dL, MCV 68 fL. What is the most likely diagnosis?",Final Answer: A,A,True,True
+2,instruction_heavy,A 62-year-old smoker presents with chronic productive cough for 3 years and prolonged expiratory phase on exam. What is the likely diagnosis?,Final Answer: B,B,True,True
+3,instruction_heavy,"A 30-year-old man presents with polyuria, polydipsia, and fasting glucose of 152 mg/dL. BMI is 28. What is the most likely diagnosis?",Final Answer: B,B,True,True
+4,instruction_heavy,A 23-year-old woman presents with sudden severe RLQ pain and cervical motion tenderness. Pregnancy test is negative. Diagnosis?,Final Answer: C,C,True,True
+5,instruction_heavy,A 70-year-old hypertensive man presents with unilateral facial droop sparing the forehead. Diagnosis?,Final Answer: A,B,False,True
+6,instruction_heavy,"A 55-year-old man presents with chest pain relieved by rest, lasting 5 minutes during exertion. Likely diagnosis?",Final Answer: A,A,True,True
+7,instruction_heavy,A 26-year-old man presents with recurrent watery diarrhea after recent travel to India. Stool shows cysts and trophozoites. Cause?,Final Answer: B,A,True,True
+8,instruction_heavy,"A 48-year-old woman presents with heat intolerance, weight loss, tremors, and exophthalmos. Diagnosis?",Final Answer: C,C,True,True
+9,instruction_heavy,"A 67-year-old man presents with progressive resting tremor, bradykinesia, and shuffling gait. Likely diagnosis?",Final Answer: A,A,True,True
+10,instruction_heavy,A 25-year-old woman presents with dysuria and increased frequency. Urinalysis shows leukocyte esterase positive. Diagnosis?,Final Answer: A,A,True,True
+11,instruction_heavy,A 50-year-old alcoholic presents with epigastric pain radiating to the back. Amylase elevated.,Final Answer: A,A,True,True
+12,instruction_heavy,A 35-year-old man has sudden onset pleuritic chest pain and dyspnea. D-dimer elevated.,Final Answer: A,A,True,True
+13,instruction_heavy,"A 22-year-old woman has fever, neck stiffness, and photophobia. Kernig sign positive.",Final Answer: A,A,True,True
+14,instruction_heavy,"A 40-year-old man has polyuria, hypernatremia, and dilute urine. Diagnosis?",Final Answer: A,A,True,True
+15,instruction_heavy,A 72-year-old woman with bone pain and elevated ALP with normal calcium.,Final Answer: A,A,True,True
+16,instruction_heavy,A 32-year-old woman presents with malar rash worsened by sunlight.,Final Answer: A,A,True,True
+17,instruction_heavy,A 70-year-old man presents with urinary hesitancy and weak stream.,Final Answer: INSUFFICIENT INFO,A,True,False
+18,instruction_heavy,A 28-year-old man presents with migratory polyarthritis and a target rash.,Final Answer: A,A,True,True
+19,instruction_heavy,"A 45-year-old man presents with RUQ pain, fever, jaundice (Charcot triad).",Final Answer: A,A,True,True
+20,instruction_heavy,"A 29-year-old woman with new-onset anxiety, palpitations, and elevated free T4.",Final Answer: A,A,True,True

@@ -1,0 +1,58 @@
+=== LLM MEDICAL DIAGNOSIS – PROMPT PERFORMANCE SUMMARY ===
+
+Prompt       : cot
+Total Qs     : 80
+Correct      : 56
+Incorrect    : 24
+Accuracy     : 70.0%
+Hallucinated : 40
+Halluc. Rate : 50.0%
+----------------------------------------------------------
+Prompt       : few_shot
+Total Qs     : 80
+Correct      : 34
+Incorrect    : 46
+Accuracy     : 42.5%
+Hallucinated : 58
+Halluc. Rate : 72.5%
+----------------------------------------------------------
+Prompt       : instruction_heavy
+Total Qs     : 80
+Correct      : 57
+Incorrect    : 23
+Accuracy     : 71.25%
+Hallucinated : 39
+Halluc. Rate : 48.75%
+----------------------------------------------------------
+Prompt       : safety
+Total Qs     : 40
+Correct      : 31
+Incorrect    : 9
+Accuracy     : 77.5%
+Hallucinated : 4
+Halluc. Rate : 10.0%
+----------------------------------------------------------
+Prompt       : self_consistency
+Total Qs     : 60
+Correct      : 35
+Incorrect    : 25
+Accuracy     : 58.33%
+Hallucinated : 40
+Halluc. Rate : 66.67%
+----------------------------------------------------------
+Prompt       : self_verification
+Total Qs     : 60
+Correct      : 58
+Incorrect    : 2
+Accuracy     : 96.67%
+Hallucinated : 19
+Halluc. Rate : 31.67%
+----------------------------------------------------------
+Prompt       : zero_shot
+Total Qs     : 114
+Correct      : 31
+Incorrect    : 83
+Accuracy     : 27.19%
+Hallucinated : 77
+Halluc. Rate : 67.54%
+----------------------------------------------------------

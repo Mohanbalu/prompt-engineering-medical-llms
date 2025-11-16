@@ -1,0 +1,21 @@
+id,prompt_type,question,model_output,correct_answer,correct,hallucination
+1,few_shot,"A 45-year-old woman presents with fatigue, pallor, and pica. Labs show Hb 8.9 g/dL, MCV 68 fL. What is the most likely diagnosis?",ERROR,A,False,True
+2,few_shot,A 62-year-old smoker presents with chronic productive cough for 3 years and prolonged expiratory phase on exam. What is the likely diagnosis?,ERROR,B,False,True
+3,few_shot,"A 30-year-old man presents with polyuria, polydipsia, and fasting glucose of 152 mg/dL. BMI is 28. What is the most likely diagnosis?",ERROR,B,False,True
+4,few_shot,A 23-year-old woman presents with sudden severe RLQ pain and cervical motion tenderness. Pregnancy test is negative. Diagnosis?,ERROR,C,False,True
+5,few_shot,A 70-year-old hypertensive man presents with unilateral facial droop sparing the forehead. Diagnosis?,ERROR,B,False,True
+6,few_shot,"A 55-year-old man presents with chest pain relieved by rest, lasting 5 minutes during exertion. Likely diagnosis?",ERROR,A,False,True
+7,few_shot,A 26-year-old man presents with recurrent watery diarrhea after recent travel to India. Stool shows cysts and trophozoites. Cause?,ERROR,A,False,True
+8,few_shot,"A 48-year-old woman presents with heat intolerance, weight loss, tremors, and exophthalmos. Diagnosis?",ERROR,C,False,True
+9,few_shot,"A 67-year-old man presents with progressive resting tremor, bradykinesia, and shuffling gait. Likely diagnosis?",ERROR,A,False,True
+10,few_shot,A 25-year-old woman presents with dysuria and increased frequency. Urinalysis shows leukocyte esterase positive. Diagnosis?,ERROR,A,False,True
+11,few_shot,A 50-year-old alcoholic presents with epigastric pain radiating to the back. Amylase elevated.,ERROR,A,False,True
+12,few_shot,A 35-year-old man has sudden onset pleuritic chest pain and dyspnea. D-dimer elevated.,ERROR,A,False,True
+13,few_shot,"A 22-year-old woman has fever, neck stiffness, and photophobia. Kernig sign positive.",ERROR,A,False,True
+14,few_shot,"A 40-year-old man has polyuria, hypernatremia, and dilute urine. Diagnosis?",ERROR,A,False,True
+15,few_shot,A 72-year-old woman with bone pain and elevated ALP with normal calcium.,ERROR,A,False,True
+16,few_shot,A 32-year-old woman presents with malar rash worsened by sunlight.,ERROR,A,False,True
+17,few_shot,A 70-year-old man presents with urinary hesitancy and weak stream.,ERROR,A,False,True
+18,few_shot,A 28-year-old man presents with migratory polyarthritis and a target rash.,ERROR,A,False,True
+19,few_shot,"A 45-year-old man presents with RUQ pain, fever, jaundice (Charcot triad).",ERROR,A,False,True
+20,few_shot,"A 29-year-old woman with new-onset anxiety, palpitations, and elevated free T4.",ERROR,A,False,True

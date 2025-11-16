@@ -1,0 +1,352 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "google.generativeai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "google.generativeai",
+        "description": "google.generativeai",
+        "detail": "google.generativeai",
+        "documentation": {}
+    },
+    {
+        "label": "load_all_results",
+        "kind": 2,
+        "importPath": "analysis.analysis",
+        "description": "analysis.analysis",
+        "peekOfCode": "def load_all_results():\n    \"\"\"Load all CSV result files from results/ folder.\"\"\"\n    files = [f for f in os.listdir(RESULTS_DIR) if f.endswith(\".csv\")]\n    all_data = []\n    for file in files:\n        path = os.path.join(RESULTS_DIR, file)\n        df = pd.read_csv(path)\n        # Extract prompt name from filename\n        df[\"file_name\"] = file\n        df[\"prompt_type\"] = df[\"prompt_type\"].astype(str)",
+        "detail": "analysis.analysis",
+        "documentation": {}
+    },
+    {
+        "label": "compute_stats",
+        "kind": 2,
+        "importPath": "analysis.analysis",
+        "description": "analysis.analysis",
+        "peekOfCode": "def compute_stats(df):\n    \"\"\"Compute accuracy and hallucination stats for each prompt.\"\"\"\n    stats = []\n    for prompt in df[\"prompt_type\"].unique():\n        sub = df[df[\"prompt_type\"] == prompt]\n        total = len(sub)\n        correct = sub[\"correct\"].sum()\n        halluc = sub[\"hallucination\"].sum()\n        stats.append({\n            \"prompt\": prompt,",
+        "detail": "analysis.analysis",
+        "documentation": {}
+    },
+    {
+        "label": "save_summary",
+        "kind": 2,
+        "importPath": "analysis.analysis",
+        "description": "analysis.analysis",
+        "peekOfCode": "def save_summary(stats_df):\n    \"\"\"Save a readable text summary for the research paper.\"\"\"\n    summary_path = os.path.join(OUT_DIR, \"summary.txt\")\n    with open(summary_path, \"w\") as f:\n        f.write(\"=== LLM MEDICAL DIAGNOSIS – PROMPT PERFORMANCE SUMMARY ===\\n\\n\")\n        for _, row in stats_df.iterrows():\n            f.write(f\"Prompt       : {row['prompt']}\\n\")\n            f.write(f\"Total Qs     : {row['total_questions']}\\n\")\n            f.write(f\"Correct      : {row['correct']}\\n\")\n            f.write(f\"Incorrect    : {row['incorrect']}\\n\")",
+        "detail": "analysis.analysis",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "analysis.analysis",
+        "description": "analysis.analysis",
+        "peekOfCode": "def main():\n    print(\"Loading results...\")\n    df = load_all_results()\n    print(\"Computing statistics...\")\n    stats_df = compute_stats(df)\n    print(\"\\n=== PERFORMANCE TABLE ===\")\n    print(stats_df.to_string(index=False))\n    out_csv = os.path.join(OUT_DIR, \"prompt_performance.csv\")\n    stats_df.to_csv(out_csv, index=False)\n    print(f\"\\n📊 Prompt statistics saved to: {out_csv}\")",
+        "detail": "analysis.analysis",
+        "documentation": {}
+    },
+    {
+        "label": "RESULTS_DIR",
+        "kind": 5,
+        "importPath": "analysis.analysis",
+        "description": "analysis.analysis",
+        "peekOfCode": "RESULTS_DIR = \"results\"\nOUT_DIR = \"analysis\"\nos.makedirs(OUT_DIR, exist_ok=True)\ndef load_all_results():\n    \"\"\"Load all CSV result files from results/ folder.\"\"\"\n    files = [f for f in os.listdir(RESULTS_DIR) if f.endswith(\".csv\")]\n    all_data = []\n    for file in files:\n        path = os.path.join(RESULTS_DIR, file)\n        df = pd.read_csv(path)",
+        "detail": "analysis.analysis",
+        "documentation": {}
+    },
+    {
+        "label": "OUT_DIR",
+        "kind": 5,
+        "importPath": "analysis.analysis",
+        "description": "analysis.analysis",
+        "peekOfCode": "OUT_DIR = \"analysis\"\nos.makedirs(OUT_DIR, exist_ok=True)\ndef load_all_results():\n    \"\"\"Load all CSV result files from results/ folder.\"\"\"\n    files = [f for f in os.listdir(RESULTS_DIR) if f.endswith(\".csv\")]\n    all_data = []\n    for file in files:\n        path = os.path.join(RESULTS_DIR, file)\n        df = pd.read_csv(path)\n        # Extract prompt name from filename",
+        "detail": "analysis.analysis",
+        "documentation": {}
+    },
+    {
+        "label": "PERFORMANCE_CSV",
+        "kind": 5,
+        "importPath": "analysis.visualize",
+        "description": "analysis.visualize",
+        "peekOfCode": "PERFORMANCE_CSV = \"prompt_performance.csv\"\nCHART_DIR = \"charts\"\nos.makedirs(CHART_DIR, exist_ok=True)\n# ==========================\n# Load Data\n# ==========================\ndf = pd.read_csv(PERFORMANCE_CSV)\nprompts = df[\"prompt\"]\naccuracy = df[\"accuracy_%\"]\nhalluc_rate = df[\"hallucination_rate_%\"]",
+        "detail": "analysis.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "CHART_DIR",
+        "kind": 5,
+        "importPath": "analysis.visualize",
+        "description": "analysis.visualize",
+        "peekOfCode": "CHART_DIR = \"charts\"\nos.makedirs(CHART_DIR, exist_ok=True)\n# ==========================\n# Load Data\n# ==========================\ndf = pd.read_csv(PERFORMANCE_CSV)\nprompts = df[\"prompt\"]\naccuracy = df[\"accuracy_%\"]\nhalluc_rate = df[\"hallucination_rate_%\"]\n# ==========================",
+        "detail": "analysis.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "analysis.visualize",
+        "description": "analysis.visualize",
+        "peekOfCode": "df = pd.read_csv(PERFORMANCE_CSV)\nprompts = df[\"prompt\"]\naccuracy = df[\"accuracy_%\"]\nhalluc_rate = df[\"hallucination_rate_%\"]\n# ==========================\n# Plot 1: Accuracy Bar Chart\n# ==========================\nplt.figure(figsize=(10, 6))\nplt.bar(prompts, accuracy)\nplt.xlabel(\"Prompt Type\")",
+        "detail": "analysis.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "prompts",
+        "kind": 5,
+        "importPath": "analysis.visualize",
+        "description": "analysis.visualize",
+        "peekOfCode": "prompts = df[\"prompt\"]\naccuracy = df[\"accuracy_%\"]\nhalluc_rate = df[\"hallucination_rate_%\"]\n# ==========================\n# Plot 1: Accuracy Bar Chart\n# ==========================\nplt.figure(figsize=(10, 6))\nplt.bar(prompts, accuracy)\nplt.xlabel(\"Prompt Type\")\nplt.ylabel(\"Accuracy (%)\")",
+        "detail": "analysis.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": "analysis.visualize",
+        "description": "analysis.visualize",
+        "peekOfCode": "accuracy = df[\"accuracy_%\"]\nhalluc_rate = df[\"hallucination_rate_%\"]\n# ==========================\n# Plot 1: Accuracy Bar Chart\n# ==========================\nplt.figure(figsize=(10, 6))\nplt.bar(prompts, accuracy)\nplt.xlabel(\"Prompt Type\")\nplt.ylabel(\"Accuracy (%)\")\nplt.title(\"Prompt-wise Accuracy Comparison\")",
+        "detail": "analysis.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "halluc_rate",
+        "kind": 5,
+        "importPath": "analysis.visualize",
+        "description": "analysis.visualize",
+        "peekOfCode": "halluc_rate = df[\"hallucination_rate_%\"]\n# ==========================\n# Plot 1: Accuracy Bar Chart\n# ==========================\nplt.figure(figsize=(10, 6))\nplt.bar(prompts, accuracy)\nplt.xlabel(\"Prompt Type\")\nplt.ylabel(\"Accuracy (%)\")\nplt.title(\"Prompt-wise Accuracy Comparison\")\nplt.xticks(rotation=45, ha=\"right\")",
+        "detail": "analysis.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "acc_path",
+        "kind": 5,
+        "importPath": "analysis.visualize",
+        "description": "analysis.visualize",
+        "peekOfCode": "acc_path = os.path.join(CHART_DIR, \"accuracy.png\")\nplt.savefig(acc_path)\nplt.close()\nprint(f\"[+] Saved accuracy chart → {acc_path}\")\n# ==========================\n# Plot 2: Hallucination Rate Bar Chart\n# ==========================\nplt.figure(figsize=(10, 6))\nplt.bar(prompts, halluc_rate)\nplt.xlabel(\"Prompt Type\")",
+        "detail": "analysis.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "hall_path",
+        "kind": 5,
+        "importPath": "analysis.visualize",
+        "description": "analysis.visualize",
+        "peekOfCode": "hall_path = os.path.join(CHART_DIR, \"hallucination.png\")\nplt.savefig(hall_path)\nplt.close()\nprint(f\"[+] Saved hallucination chart → {hall_path}\")\nprint(\"\\nAll charts generated successfully.\")",
+        "detail": "analysis.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "GeminiClient",
+        "kind": 6,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "class GeminiClient:\n    def __init__(self, model_name: str):\n        self.model_name = model_name\n        self.model = genai.GenerativeModel(self.model_name)\n    def switch_key(self):\n        \"\"\"Switch to next API key and reload model.\"\"\"\n        global CURRENT_KEY_INDEX\n        CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(API_KEYS)\n        print(f\"[ROTATING KEY → Now using KEY #{CURRENT_KEY_INDEX+1}]\")\n        configure_gemini()",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "configure_gemini",
+        "kind": 2,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "def configure_gemini():\n    \"\"\"Switch to the current API key.\"\"\"\n    genai.configure(api_key=API_KEYS[CURRENT_KEY_INDEX])\n    print(f\"[USING KEY #{CURRENT_KEY_INDEX+1}]\")\nconfigure_gemini()\n# ====================================================\n# 2. MODEL SETUP (YOUR ACCOUNT SUPPORTS ONLY 2.0 FLASH)\n# ====================================================\nMODEL_ID = \"gemini-2.0-flash\"\n# ====================================================",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "load_prompts",
+        "kind": 2,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "def load_prompts():\n    with open(PROMPTS_PATH, \"r\", encoding=\"utf-8\") as f:\n        text = f.read()\n    blocks = [b.strip() for b in text.split(\"========\") if b.strip()]\n    return {\n        \"zero_shot\": blocks[0],\n        \"instruction_heavy\": blocks[1],\n        \"few_shot\": blocks[2],\n        \"cot\": blocks[3],\n        \"self_consistency\": blocks[4],",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "format_question",
+        "kind": 2,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "def format_question(row):\n    return (\n        f\"{row['question']}\\n\"\n        f\"A: {row['A']}\\n\"\n        f\"B: {row['B']}\\n\"\n        f\"C: {row['C']}\\n\"\n        f\"D: {row['D']}\\n\"\n    )\n# ====================================================\n# 8. Extract letter A/B/C/D",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "extract_answer",
+        "kind": 2,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "def extract_answer(text: str):\n    if not text:\n        return None\n    segment = text[:25].upper()\n    for ch in [\"A\", \"B\", \"C\", \"D\"]:\n        if ch in segment:\n            return ch\n    return None\n# ====================================================\n# 9. Query with Delay",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "query_model",
+        "kind": 2,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "def query_model(prompt: str):\n    time.sleep(GLOBAL_DELAY)\n    return gemini.generate(prompt)\n# ====================================================\n# 10. Run Experiment\n# ====================================================\ndef run_experiment(prompt_name, base_prompt):\n    print(f\"\\n=== Running: {prompt_name} ===\")\n    timestamp = datetime.now().strftime(\"%Y%m%d_%H%M\")\n    out_path = f\"{RESULTS_DIR}/{prompt_name}_{timestamp}.csv\"",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "run_experiment",
+        "kind": 2,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "def run_experiment(prompt_name, base_prompt):\n    print(f\"\\n=== Running: {prompt_name} ===\")\n    timestamp = datetime.now().strftime(\"%Y%m%d_%H%M\")\n    out_path = f\"{RESULTS_DIR}/{prompt_name}_{timestamp}.csv\"\n    rows = []\n    for _, row in dataset.iterrows():\n        q_text = format_question(row)\n        final_prompt = base_prompt.replace(\"{QUESTION}\", q_text)\n        # ---------------------\n        # Self-consistency mode",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEYS",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "API_KEYS = [\n    \"AIzaSyC_pXZYyiNcDWxgzbLAjSJI3CU6Ptm2zW0\",\n    \"AIzaSyBCOIJYWQPXUzbq0eNF_9fO3Njmaacw6VA\",\n    \"AIzaSyAyPlGEedkDkUL3z4ZNgCZmHG8-RyHx1hY\"\n]\nCURRENT_KEY_INDEX = 0\ndef configure_gemini():\n    \"\"\"Switch to the current API key.\"\"\"\n    genai.configure(api_key=API_KEYS[CURRENT_KEY_INDEX])\n    print(f\"[USING KEY #{CURRENT_KEY_INDEX+1}]\")",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "CURRENT_KEY_INDEX",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "CURRENT_KEY_INDEX = 0\ndef configure_gemini():\n    \"\"\"Switch to the current API key.\"\"\"\n    genai.configure(api_key=API_KEYS[CURRENT_KEY_INDEX])\n    print(f\"[USING KEY #{CURRENT_KEY_INDEX+1}]\")\nconfigure_gemini()\n# ====================================================\n# 2. MODEL SETUP (YOUR ACCOUNT SUPPORTS ONLY 2.0 FLASH)\n# ====================================================\nMODEL_ID = \"gemini-2.0-flash\"",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_ID",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "MODEL_ID = \"gemini-2.0-flash\"\n# ====================================================\n# 3. Gemini Client (AUTO KEY SWITCH + BACKOFF)\n# ====================================================\nclass GeminiClient:\n    def __init__(self, model_name: str):\n        self.model_name = model_name\n        self.model = genai.GenerativeModel(self.model_name)\n    def switch_key(self):\n        \"\"\"Switch to next API key and reload model.\"\"\"",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "gemini",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "gemini = GeminiClient(MODEL_ID)\n# ====================================================\n# 4. File Paths\n# ====================================================\nDATASET_PATH = \"dataset/medical_dataset.csv\"\nPROMPTS_PATH = \"prompts/prompts.txt\"\nRESULTS_DIR = \"results\"\nos.makedirs(RESULTS_DIR, exist_ok=True)\n# ====================================================\n# 5. Load Dataset",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "DATASET_PATH",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "DATASET_PATH = \"dataset/medical_dataset.csv\"\nPROMPTS_PATH = \"prompts/prompts.txt\"\nRESULTS_DIR = \"results\"\nos.makedirs(RESULTS_DIR, exist_ok=True)\n# ====================================================\n# 5. Load Dataset\n# ====================================================\ndataset = pd.read_csv(DATASET_PATH)\n# ====================================================\n# 6. Load Prompts",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "PROMPTS_PATH",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "PROMPTS_PATH = \"prompts/prompts.txt\"\nRESULTS_DIR = \"results\"\nos.makedirs(RESULTS_DIR, exist_ok=True)\n# ====================================================\n# 5. Load Dataset\n# ====================================================\ndataset = pd.read_csv(DATASET_PATH)\n# ====================================================\n# 6. Load Prompts\n# ====================================================",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "RESULTS_DIR",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "RESULTS_DIR = \"results\"\nos.makedirs(RESULTS_DIR, exist_ok=True)\n# ====================================================\n# 5. Load Dataset\n# ====================================================\ndataset = pd.read_csv(DATASET_PATH)\n# ====================================================\n# 6. Load Prompts\n# ====================================================\ndef load_prompts():",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "dataset = pd.read_csv(DATASET_PATH)\n# ====================================================\n# 6. Load Prompts\n# ====================================================\ndef load_prompts():\n    with open(PROMPTS_PATH, \"r\", encoding=\"utf-8\") as f:\n        text = f.read()\n    blocks = [b.strip() for b in text.split(\"========\") if b.strip()]\n    return {\n        \"zero_shot\": blocks[0],",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "prompts",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "prompts = load_prompts()\n# ====================================================\n# 7. Format Question\n# ====================================================\ndef format_question(row):\n    return (\n        f\"{row['question']}\\n\"\n        f\"A: {row['A']}\\n\"\n        f\"B: {row['B']}\\n\"\n        f\"C: {row['C']}\\n\"",
+        "detail": "run_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "GLOBAL_DELAY",
+        "kind": 5,
+        "importPath": "run_experiment",
+        "description": "run_experiment",
+        "peekOfCode": "GLOBAL_DELAY = 5.5   # safe for free-tier, avoids 429 bursts\ndef query_model(prompt: str):\n    time.sleep(GLOBAL_DELAY)\n    return gemini.generate(prompt)\n# ====================================================\n# 10. Run Experiment\n# ====================================================\ndef run_experiment(prompt_name, base_prompt):\n    print(f\"\\n=== Running: {prompt_name} ===\")\n    timestamp = datetime.now().strftime(\"%Y%m%d_%H%M\")",
+        "detail": "run_experiment",
+        "documentation": {}
+    }
+]

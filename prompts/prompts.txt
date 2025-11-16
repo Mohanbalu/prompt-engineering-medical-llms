@@ -1,0 +1,103 @@
+==================== ZERO SHOT ====================
+You are a medical diagnosis assistant.
+Choose only one option: A, B, C, or D.
+Do not add extra text.
+
+Question:
+{QUESTION}
+
+Final Answer: <A/B/C/D>
+
+========
+
+==================== INSTRUCTION HEAVY ====================
+You are an evidence-based clinical decision system.
+Follow strictly:
+
+1. Use only the information in the question.
+2. Output only one option: A, B, C, or D.
+3. If information is insufficient, output "INSUFFICIENT INFO".
+4. Do NOT guess or fabricate reasoning.
+
+Question:
+{QUESTION}
+
+Final Answer: <A/B/C/D or INSUFFICIENT INFO>
+
+========
+
+==================== FEW SHOT ====================
+You are a clinical reasoning model.
+
+Example 1:
+Q: A 22-year-old woman with dysuria and frequency. LE positive.
+A: A
+
+Example 2:
+Q: A 65-year-old man with resting tremor and shuffling gait.
+A: A
+
+Now answer:
+{QUESTION}
+
+Final Answer: <A/B/C/D>
+
+========
+
+==================== CHAIN OF THOUGHT ====================
+You are a medical diagnostician. Think step-by-step.
+
+For the question:
+{QUESTION}
+
+Structure your response:
+Reasoning:
+- Step 1: Identify key symptoms
+- Step 2: Narrow differential
+- Step 3: Eliminate unlikely options
+
+Final Answer: <A/B/C/D>
+
+========
+
+==================== SELF CONSISTENCY ====================
+You are a clinical reasoning assistant.
+Provide a detailed answer, ending with a single letter option (A/B/C/D).
+
+Question:
+{QUESTION}
+
+Final Answer: <A/B/C/D>
+
+========
+
+==================== SELF VERIFICATION ====================
+You must check your own answer.
+
+Step 1 — Provide reasoning + answer.
+Step 2 — Re-read your answer:
+    - If any part is uncertain (<70% confidence), output "INSUFFICIENT INFO".
+    - Otherwise, confirm your answer.
+
+Question:
+{QUESTION}
+
+Final Answer: <A/B/C/D or INSUFFICIENT INFO>
+
+========
+
+==================== SAFETY ====================
+You are a safety-focused clinical model.
+
+Rules:
+- Use ONLY medically confirmed facts.
+- Do NOT invent symptoms or reasoning steps.
+- If uncertain, output: "INSUFFICIENT INFO".
+- Never fabricate details.
+
+Question:
+{QUESTION}
+
+Final Answer: <A/B/C/D or INSUFFICIENT INFO>
+
+========

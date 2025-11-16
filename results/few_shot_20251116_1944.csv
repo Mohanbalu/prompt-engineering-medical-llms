@@ -1,0 +1,196 @@
+id,prompt_type,question,model_output,correct_answer,correct,hallucination
+1,few_shot,"A 45-year-old woman presents with fatigue, pallor, and pica. Labs show Hb 8.9 g/dL, MCV 68 fL. What is the most likely diagnosis?","Okay, I'm ready for your instruction-heavy prompt. I understand that means you'll be providing a lot of detail and specific requirements. I will do my best to follow your instructions precisely. 
+
+To help me understand and execute your instructions effectively, please consider the following:
+
+*   **Be as specific as possible:** The more detail you provide, the better I can understand your needs.
+*   **Break down complex tasks:** If the task is complicated, break it down into smaller, more manageable steps.
+*   **Provide examples:** Examples can be very helpful in clarifying your expectations.
+*   **Specify the desired output format:** Tell me how you want the output to be formatted (e.g., text, code, list, table, etc.).
+*   **Indicate any constraints or limitations:** Are there any things I should *not* do or any limitations I need to be aware of?
+*   **Use clear and concise language:** Avoid ambiguity and jargon if possible.
+*   **Number or bullet point your instructions:** This can help me follow the order of operations.
+
+I'm eager to see what you have in store! Let's get started. Please provide your instructions.",A,False,True
+2,few_shot,A 62-year-old smoker presents with chronic productive cough for 3 years and prolonged expiratory phase on exam. What is the likely diagnosis?,"Okay, I'm ready for some heavy instructions. I understand this means you'll be providing detailed and potentially complex directions. I will do my best to follow them precisely. 
+
+To help me succeed, please be as clear and unambiguous as possible. Consider the following:
+
+*   **Specificity:** Avoid vague language. Use precise terms and measurements when necessary.
+*   **Order of Operations:** Clearly indicate the sequence of steps. Numbered lists are often helpful.
+*   **Context:** Provide any necessary background information or assumptions.
+*   **Error Handling:** If there are potential pitfalls or common mistakes, point them out.
+*   **Expected Output:** Describe what the final result should look like or how I should demonstrate completion.
+*   **Constraints:** Are there any limitations or restrictions I need to be aware of?
+
+I'm eager to see what you have in store! Let's get started.",B,False,True
+3,few_shot,"A 30-year-old man presents with polyuria, polydipsia, and fasting glucose of 152 mg/dL. BMI is 28. What is the most likely diagnosis?","Okay, I'm ready for some heavy instructions. I understand this means you'll be providing detailed and potentially complex directions. I will do my best to follow them precisely. 
+
+To help me succeed, please be as clear and unambiguous as possible. Consider the following:
+
+*   **Specificity:** Avoid vague terms. Use concrete examples and measurements when possible.
+*   **Order of Operations:** Clearly define the sequence of steps. Numbered lists are often helpful.
+*   **Error Handling:** If there are potential pitfalls or common mistakes, point them out and explain how to avoid or correct them.
+*   **Context:** Provide any necessary background information or assumptions.
+*   **Expected Output:** Describe what the final result should look like or how I should present it.
+*   **Constraints:** Are there any limitations or restrictions I need to be aware of?
+
+I'm eager to see what you have in store! Bring on the instructions. I'll do my best to execute them flawlessly.",B,False,True
+4,few_shot,A 23-year-old woman presents with sudden severe RLQ pain and cervical motion tenderness. Pregnancy test is negative. Diagnosis?,"Okay, I understand. I'm ready for your instructions. I will do my best to follow them precisely. Please provide as much detail as possible. I'm prepared to handle complex and nuanced instructions. Let's begin!",C,False,True
+5,few_shot,A 70-year-old hypertensive man presents with unilateral facial droop sparing the forehead. Diagnosis?,"Okay, I'm ready for some heavy instructions! I understand that you're going to give me a complex task or a series of detailed steps to follow. I'll do my best to understand and execute them accurately.
+
+To help me succeed, please be as clear and specific as possible. Consider including:
+
+*   **The overall goal:** What are we trying to achieve?
+*   **Step-by-step instructions:** Break down the task into manageable steps.
+*   **Input format:** How should I expect the input data to be formatted?
+*   **Output format:** How should I format my response?
+*   **Examples:** Provide examples of input and expected output.
+*   **Constraints:** Are there any limitations or restrictions I should be aware of?
+*   **Error handling:** What should I do if I encounter an error or unexpected input?
+*   **Clarifications:** Any additional information that might be helpful.
+
+I'm eager to see what you have in store for me. Let's get started! Just paste your instructions, and I'll do my best to follow them.",B,False,True
+6,few_shot,"A 55-year-old man presents with chest pain relieved by rest, lasting 5 minutes during exertion. Likely diagnosis?","Okay, I understand. I'm ready for your instructions. I will do my best to follow them precisely. Please provide me with as much detail as possible to ensure I understand what you need. I'm prepared to handle complex tasks, so don't hesitate to be thorough.
+
+Let's begin! I'm eager to learn what you have in mind.",A,False,True
+7,few_shot,A 26-year-old man presents with recurrent watery diarrhea after recent travel to India. Stool shows cysts and trophozoites. Cause?,"Okay, I'm ready for your instruction-heavy request. I understand that you'll be providing detailed instructions, and I will do my best to follow them precisely. To help me give you the best possible response, please consider the following:
+
+*   **Clarity:** The clearer and more specific your instructions, the better I can understand and execute them.
+*   **Context:** Providing some background information or the overall goal of the task can help me interpret your instructions more effectively.
+*   **Format:** If you have a specific format in mind for the output, please specify it clearly.
+*   **Example:** If possible, providing an example of the desired output can be extremely helpful.
+*   **Error Handling:** Let me know how I should handle potential errors or ambiguous situations. Should I ask for clarification, make an assumption, or simply stop?
+
+I'm looking forward to seeing what you have in store! Please provide your instructions.",A,False,True
+8,few_shot,"A 48-year-old woman presents with heat intolerance, weight loss, tremors, and exophthalmos. Diagnosis?","Okay, I'm ready for some heavy instructions! I understand that you're going to give me a complex task or a series of tasks. I will do my best to follow your instructions precisely and completely. 
+
+To help me succeed, please be as clear and specific as possible. Consider including the following:
+
+*   **The overall goal:** What are we trying to achieve?
+*   **Specific steps:** Break down the task into smaller, manageable steps.
+*   **Input format:** How will you provide the information I need?
+*   **Output format:** How should I present the results?
+*   **Constraints:** Are there any limitations or rules I need to follow?
+*   **Examples:** Providing examples can be extremely helpful.
+*   **Error handling:** What should I do if I encounter an error or unexpected situation?
+*   **Prioritization:** If there are multiple tasks, which are most important?
+*   **Clarification:** Let me know if I can ask questions to clarify any ambiguities.
+
+I'm eager to get started. Bring on the instructions!",C,False,True
+9,few_shot,"A 67-year-old man presents with progressive resting tremor, bradykinesia, and shuffling gait. Likely diagnosis?","Okay, I understand. I'm ready for your instruction-heavy prompt. I will do my best to follow your instructions precisely and provide the output you're looking for. Please provide the instructions, and I'll get started. I'm prepared for complexity and detail. Let's go!",A,False,True
+10,few_shot,A 25-year-old woman presents with dysuria and increased frequency. Urinalysis shows leukocyte esterase positive. Diagnosis?,"Okay, I'm ready for your instruction-heavy request. I understand that you need me to follow specific and detailed instructions. Please provide them. I will do my best to:
+
+*   **Read carefully and understand each instruction.**
+*   **Ask clarifying questions if anything is ambiguous.**
+*   **Follow the instructions precisely.**
+*   **Acknowledge when I have completed a step.**
+*   **Alert you if I encounter any problems or limitations.**
+
+I'm looking forward to seeing what you need me to do! Let's get started.",A,False,True
+11,few_shot,A 50-year-old alcoholic presents with epigastric pain radiating to the back. Amylase elevated.,"Okay, I'm ready for your instruction-heavy request. I understand that this means you'll be providing detailed instructions, and I will do my best to follow them precisely. 
+
+To help me give you the best possible response, please consider the following:
+
+*   **Be as specific as possible.** Don't assume I know anything beyond what you explicitly tell me.
+*   **Break down complex tasks into smaller, manageable steps.** This will help me avoid errors and ensure I understand your intent.
+*   **Provide examples if possible.** Examples can be incredibly helpful in clarifying your instructions.
+*   **Specify the desired output format.** Do you want a list, a paragraph, code, a table, etc.?
+*   **Tell me what to do if I encounter an error or ambiguity.** Should I ask for clarification, make a reasonable assumption, or stop and report the issue?
+*   **Let me know the context or purpose of the task.** This can help me make better decisions if I need to fill in any gaps in your instructions.
+
+I'm looking forward to seeing what you have in mind! Let's get started. Please provide your instructions.",A,False,True
+12,few_shot,A 35-year-old man has sudden onset pleuritic chest pain and dyspnea. D-dimer elevated.,"Okay, I'm ready for some heavy instructions! I understand this means you'll be giving me detailed and potentially complex instructions. I will do my best to follow them precisely. 
+
+To help me succeed, please be as clear and specific as possible. Consider including:
+
+*   **Context:** What is the overall goal or purpose of these instructions?
+*   **Step-by-step breakdown:** Divide the task into smaller, manageable steps.
+*   **Specific actions:** Use verbs that clearly describe what you want me to do (e.g., ""write,"" ""calculate,"" ""summarize,"" ""find,"" ""translate,"" ""create,"" ""modify"").
+*   **Input format:** Specify how you will provide the input (e.g., text, code, data, a link).
+*   **Output format:** Specify how you want the output to be presented (e.g., text, code, a table, a list).
+*   **Constraints:** Are there any limitations or restrictions I need to be aware of (e.g., word count, specific tools to use, forbidden topics)?
+*   **Examples:** Providing examples can be extremely helpful for understanding your expectations.
+*   **Error handling:** What should I do if I encounter an error or cannot complete a step?
+
+I'm eager to see what you have in store! Let's get started. Just paste your instructions and I'll do my best to follow them.",A,False,True
+13,few_shot,"A 22-year-old woman has fever, neck stiffness, and photophobia. Kernig sign positive.","Okay, I'm ready for your instruction-heavy request. I understand that you need me to follow specific instructions and that the quality of my response depends on how well I understand and execute those instructions.
+
+To help me provide the best possible response, please be as clear, detailed, and unambiguous as possible. Consider including the following:
+
+*   **The overall goal:** What are you trying to achieve with this interaction? What is the desired outcome?
+*   **Specific tasks:** Break down the overall goal into smaller, manageable tasks.
+*   **Constraints:** Are there any limitations or restrictions I need to be aware of? (e.g., word count, specific format, tone, audience)
+*   **Examples:** Providing examples of the desired output can be extremely helpful.
+*   **Format:** How should the response be formatted? (e.g., bullet points, numbered list, paragraph format, code block)
+*   **Tone:** What tone should I adopt? (e.g., formal, informal, humorous, serious)
+*   **Keywords:** Are there any specific keywords or phrases I should use or avoid?
+*   **Evaluation criteria:** How will you evaluate the quality of my response?
+
+The more information you provide, the better I can understand your needs and deliver a satisfactory result.
+
+**I'm ready. Please provide your instructions.**",A,False,True
+14,few_shot,"A 40-year-old man has polyuria, hypernatremia, and dilute urine. Diagnosis?","Okay, I understand. I'm ready for your instruction-heavy prompt. I will do my best to follow your instructions precisely and provide the output you're looking for. 
+
+Please provide the instructions. I'm eager to see what you have in mind!",A,False,True
+15,few_shot,A 72-year-old woman with bone pain and elevated ALP with normal calcium.,"Okay, I'm ready for some heavy instructions. I understand that you're going to give me a complex task or a series of detailed steps. I will do my best to follow them precisely.
+
+To help me succeed, please be as clear and specific as possible. Consider including:
+
+*   **The overall goal:** What are we trying to achieve?
+*   **Step-by-step instructions:** Break down the task into manageable steps.
+*   **Specific examples:** Illustrate what you expect with concrete examples.
+*   **Input and output formats:** Define how the data should be formatted.
+*   **Error handling:** What should I do if something goes wrong?
+*   **Constraints:** Are there any limitations or restrictions I need to be aware of?
+*   **Context:** Any background information that might be helpful.
+
+I'm eager to see what you have in store! Let's get started. Just paste your instructions and I'll do my best to follow them.",A,False,True
+16,few_shot,A 32-year-old woman presents with malar rash worsened by sunlight.,"Okay, I'm ready for some heavy instructions. I understand this means you'll be providing detailed and potentially complex directions. I will do my best to follow them precisely. 
+
+Please provide the instructions. I'm eager to see what you have in store! Let's get started.",A,False,True
+17,few_shot,A 70-year-old man presents with urinary hesitancy and weak stream.,"Okay, I'm ready for some heavy instructions. I understand this means you'll be providing detailed and potentially complex instructions. I will do my best to follow them precisely. 
+
+To help me process your instructions effectively, please consider the following:
+
+*   **Be as specific as possible.** Avoid ambiguity.
+*   **Break down complex tasks into smaller, manageable steps.**
+*   **Use clear and concise language.**
+*   **Provide examples where necessary.**
+*   **Specify the desired output format.**
+*   **Let me know if there are any dependencies or prerequisites.**
+*   **Indicate if there are any constraints or limitations.**
+*   **Tell me how I should handle errors or unexpected situations.**
+*   **Specify the context of the task.**
+*   **Tell me what my role is.** Am I supposed to generate code, answer questions, write text, or something else?
+
+I'm eager to get started. Please provide your instructions!",A,False,True
+18,few_shot,A 28-year-old man presents with migratory polyarthritis and a target rash.,"Okay, I'm ready for some heavy instructions. I understand that this means you'll be giving me a complex task with specific requirements. I'll do my best to follow them precisely.
+
+To help me succeed, please be as clear and detailed as possible. Consider including:
+
+*   **The overall goal:** What are you trying to achieve?
+*   **Specific steps:** Break down the task into smaller, manageable steps.
+*   **Input format:** How will you provide the information? (e.g., text, code, data, a link)
+*   **Output format:** How do you want the result to be presented? (e.g., text, code, a table, a file)
+*   **Constraints:** Are there any limitations I need to be aware of (e.g., time, resources, specific tools)?
+*   **Examples:** Providing examples of input and desired output is extremely helpful.
+*   **Error handling:** What should I do if I encounter an error or unexpected situation?
+*   **Evaluation criteria:** How will you judge the success of my response?
+
+I'm looking forward to the challenge! Let's begin.",A,False,True
+19,few_shot,"A 45-year-old man presents with RUQ pain, fever, jaundice (Charcot triad).","Okay, I'm ready for your instruction-heavy request! I understand this means you'll be providing a lot of detail and I need to be prepared to follow it carefully. 
+
+To help me understand and respond effectively, please consider the following:
+
+*   **Be as specific as possible.** The more detail you provide, the better I can understand your needs.
+*   **Break down complex tasks into smaller, manageable steps.** This will make it easier for me to follow along and avoid errors.
+*   **Use clear and concise language.** Avoid jargon or ambiguous terms.
+*   **Provide examples where appropriate.** Examples can help me understand your instructions more clearly.
+*   **Specify the desired output format.** Let me know how you want the information presented (e.g., text, code, table, etc.).
+*   **Indicate any constraints or limitations.** Are there any specific rules or restrictions I need to be aware of?
+*   **Tell me what the overall goal is.** Understanding the bigger picture will help me make better decisions when faced with ambiguity.
+*   **Let me know if you want me to ask clarifying questions.** I'm happy to ask questions if anything is unclear.
+
+I'm looking forward to seeing what you have in store! Let's get started. Please provide your instructions.",A,False,True
+20,few_shot,"A 29-year-old woman with new-onset anxiety, palpitations, and elevated free T4.","Okay, I understand. I'm ready for your instruction-heavy request. I will do my best to follow your instructions precisely and thoroughly. Please provide me with the instructions, and I'll let you know if I have any clarifying questions. I'm prepared to handle complex, multi-step instructions. Let's begin!",A,False,True

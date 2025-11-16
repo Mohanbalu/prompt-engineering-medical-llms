@@ -1,0 +1,439 @@
+id,prompt_type,question,model_output,correct_answer,correct,hallucination
+1,cot,"A 45-year-old woman presents with fatigue, pallor, and pica. Labs show Hb 8.9 g/dL, MCV 68 fL. What is the most likely diagnosis?","Let's analyze this case step-by-step.
+
+1.  **Key Symptoms:**
+    *   Fatigue
+    *   Pallor (paleness)
+    *   Pica (unusual cravings, often for non-food items)
+    *   Low Hemoglobin (Hb 8.9 g/dL - indicates anemia)
+    *   Low Mean Corpuscular Volume (MCV 68 fL - indicates microcytic anemia)
+
+2.  **Possible Conditions:** The symptoms and lab results point towards a microcytic anemia (small red blood cells). The main causes of microcytic anemia are:
+    *   Iron deficiency anemia
+    *   Thalassemia
+    *   Anemia of chronic disease (sometimes)
+    *   Sideroblastic anemia
+
+3.  **Eliminating Unlikely Options:**
+    *   **Anemia of chronic disease:** While it can sometimes be microcytic, it's less likely given the pica. Anemia of chronic disease is usually normocytic or mildly microcytic, and pica is not a typical feature.
+    *   **Sideroblastic anemia:** This is a less common cause of microcytic anemia. It can be associated with ringed sideroblasts in the bone marrow, which are not mentioned in the question. Also, pica is not a typical feature.
+    *   **Thalassemia minor:** This is a possibility, as it causes microcytic anemia. However, the Hb is quite low (8.9 g/dL). In thalassemia minor, the Hb is often only mildly reduced. Also, pica is not a typical feature.
+
+4.  **Most Accurate Answer:**
+    *   **Iron deficiency anemia:** This is the most likely diagnosis. The combination of fatigue, pallor, pica, low Hb, and low MCV strongly suggests iron deficiency. Pica is a classic symptom of iron deficiency.
+
+Final Answer: A",A,True,True
+2,cot,A 62-year-old smoker presents with chronic productive cough for 3 years and prolonged expiratory phase on exam. What is the likely diagnosis?,"Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   62-year-old smoker
+    *   Chronic productive cough (3 years)
+    *   Prolonged expiratory phase on examination
+
+2.  **Possible Conditions:**
+    *   **Emphysema:** Common in smokers, can cause prolonged expiratory phase due to air trapping. Productive cough is less typical, but possible with superimposed infection.
+    *   **Chronic Bronchitis:** Defined by chronic productive cough for at least 3 months in 2 consecutive years. Common in smokers. Prolonged expiratory phase can occur due to airway obstruction.
+    *   **Asthma:** Can cause chronic cough, but typically has more variable symptoms (wheezing, chest tightness) and is less directly linked to smoking. Prolonged expiratory phase is possible during exacerbations.
+    *   **Bronchiectasis:** Characterized by chronic productive cough, often with large amounts of purulent sputum. Prolonged expiratory phase is less typical unless there is significant associated airway obstruction.
+
+3.  **Eliminating Unlikely Options:**
+    *   **Asthma:** While possible, the patient's age, smoking history, and chronic productive cough make asthma less likely as the primary diagnosis. Asthma is more variable and often presents earlier in life.
+    *   **Bronchiectasis:** While chronic productive cough is a key feature, the prolonged expiratory phase is less typical. Bronchiectasis usually presents with large volumes of purulent sputum.
+
+4.  **Choosing the Most Accurate Answer:**
+    *   The combination of chronic productive cough for 3 years, smoking history, and prolonged expiratory phase strongly suggests **Chronic Bronchitis**. Emphysema is also possible in a smoker, but the productive cough is more characteristic of chronic bronchitis. The prolonged expiratory phase can be present in both conditions due to airway obstruction and air trapping.
+
+Final Answer: B",B,True,True
+3,cot,"A 30-year-old man presents with polyuria, polydipsia, and fasting glucose of 152 mg/dL. BMI is 28. What is the most likely diagnosis?","Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   Polyuria (frequent urination)
+    *   Polydipsia (excessive thirst)
+    *   Elevated fasting glucose (152 mg/dL)
+    *   BMI of 28 (overweight)
+
+2.  **Possible Conditions:**
+    *   **Type 1 Diabetes:** Can present with polyuria, polydipsia, and elevated glucose. Typically diagnosed in childhood or adolescence, but can occur in adults.
+    *   **Type 2 Diabetes:** Characterized by insulin resistance and progressive beta-cell dysfunction. Polyuria, polydipsia, and elevated glucose are common. Often associated with obesity and older age, but can occur in younger, overweight individuals.
+    *   **Diabetes Insipidus:** Characterized by polyuria and polydipsia due to a deficiency in antidiuretic hormone (ADH) or resistance to ADH. Glucose levels are typically normal.
+    *   **Metabolic Syndrome:** A cluster of conditions including elevated blood pressure, high blood sugar, abnormal cholesterol levels, and excess abdominal fat. Can increase the risk of type 2 diabetes.
+
+3.  **Eliminate Unlikely Options:**
+    *   **Diabetes Insipidus:** The elevated fasting glucose of 152 mg/dL makes this diagnosis unlikely. Diabetes insipidus primarily affects water balance, not glucose metabolism.
+    *   **Metabolic Syndrome:** While the patient's BMI of 28 suggests he may have metabolic syndrome, the elevated fasting glucose strongly points towards diabetes. Metabolic syndrome is a risk factor for type 2 diabetes, but it doesn't directly explain the high glucose level.
+
+4.  **Choose the Most Accurate Answer:**
+    *   **Type 1 Diabetes:** While possible, type 1 diabetes is less likely in a 30-year-old with a BMI of 28. Type 1 diabetes is usually diagnosed earlier in life and is not typically associated with obesity.
+    *   **Type 2 Diabetes:** The patient's age, BMI, polyuria, polydipsia, and elevated fasting glucose are all consistent with type 2 diabetes.
+
+Final Answer: B",B,True,True
+4,cot,A 23-year-old woman presents with sudden severe RLQ pain and cervical motion tenderness. Pregnancy test is negative. Diagnosis?,"Let's analyze this case step-by-step.
+
+1.  **Key Symptoms:**
+    *   Sudden severe RLQ (Right Lower Quadrant) pain
+    *   Cervical motion tenderness (CMT)
+    *   Negative pregnancy test
+2.  **Possible Conditions:**
+    *   **Appendicitis:** RLQ pain is a classic symptom. However, CMT is not typically associated with appendicitis.
+    *   **Ectopic pregnancy:** Can cause RLQ pain and CMT. However, the pregnancy test is negative, making this less likely.
+    *   **Pelvic Inflammatory Disease (PID):** Can cause RLQ pain and CMT. PID is an infection of the reproductive organs, and CMT is a common finding.
+    *   **Ovarian torsion:** Can cause sudden, severe RLQ pain. However, CMT is not a typical finding.
+
+3.  **Eliminating Unlikely Options:**
+    *   **Appendicitis:** While RLQ pain is present, the CMT makes this less likely.
+    *   **Ectopic pregnancy:** The negative pregnancy test significantly reduces the likelihood of this diagnosis.
+    *   **Ovarian torsion:** While RLQ pain is present, the CMT makes this less likely.
+
+4.  **Most Accurate Answer:**
+    *   **Pelvic Inflammatory Disease (PID):** The combination of RLQ pain and CMT, in the absence of a positive pregnancy test, strongly suggests PID.
+
+Final Answer: C",C,True,True
+5,cot,A 70-year-old hypertensive man presents with unilateral facial droop sparing the forehead. Diagnosis?,"Let's analyze the patient's presentation step-by-step:
+
+1.  **Key Symptoms:**
+    *   70-year-old man
+    *   Hypertension
+    *   Unilateral facial droop
+    *   Forehead sparing
+
+2.  **Possible Conditions:**
+    *   **Bell's Palsy:** Can cause unilateral facial paralysis, but typically affects the entire side of the face, including the forehead.
+    *   **Stroke (UMN lesion):** Can cause unilateral facial weakness, but typically *spares* the forehead due to bilateral innervation of the upper facial muscles. Hypertension is a risk factor for stroke.
+    *   **Guillain-Barré Syndrome:** Usually presents with bilateral ascending weakness. Facial weakness can occur, but it's typically bilateral and not the primary presenting symptom.
+    *   **Myasthenia Gravis:** Characterized by fluctuating muscle weakness that worsens with activity and improves with rest. It often affects the eyelids (ptosis) and extraocular muscles, but can also cause facial weakness. However, it's less likely to present as a sudden, unilateral facial droop.
+
+3.  **Eliminating Unlikely Options:**
+    *   **Guillain-Barré Syndrome:** The presentation is not typical for GBS, which usually involves ascending weakness.
+    *   **Myasthenia Gravis:** While facial weakness is possible, the sudden onset and unilateral nature make it less likely than other options. The forehead sparing also doesn't fit well with MG.
+    *   **Bell's Palsy:** While Bell's Palsy causes unilateral facial paralysis, it typically affects the entire side of the face, including the forehead. The forehead sparing in this case makes Bell's Palsy less likely.
+
+4.  **Choosing the Most Accurate Answer:**
+    *   The key here is the *forehead sparing*. This is a classic sign of an upper motor neuron (UMN) lesion, such as a stroke affecting the motor cortex. The contralateral lower face is affected, but the forehead is spared due to bilateral innervation. The patient's age and history of hypertension also increase the likelihood of a stroke.
+
+Final Answer: B",B,True,True
+6,cot,"A 55-year-old man presents with chest pain relieved by rest, lasting 5 minutes during exertion. Likely diagnosis?","Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   Chest pain
+    *   Relieved by rest
+    *   Lasts 5 minutes
+    *   Occurs during exertion
+
+2.  **Possible Conditions:**
+    *   **Stable Angina:** Chest pain that occurs predictably with exertion and is relieved by rest or medication (e.g., nitroglycerin).
+    *   **Unstable Angina:** Chest pain that is new, worsening, or occurs at rest. It is more unpredictable than stable angina.
+    *   **NSTEMI (Non-ST-Elevation Myocardial Infarction):** A type of heart attack where there is damage to the heart muscle, but without ST-segment elevation on an ECG.
+    *   **Aortic Dissection:** A tear in the wall of the aorta, causing sudden, severe chest or back pain.
+
+3.  **Eliminating Unlikely Options:**
+    *   **Unstable Angina:** The chest pain is not new, worsening, or occurring at rest. The pain is predictable with exertion.
+    *   **NSTEMI:** While chest pain is a symptom, NSTEMI typically involves more prolonged pain and often isn't fully relieved by rest alone. Also, the question doesn't mention any ECG changes or elevated cardiac enzymes.
+    *   **Aortic Dissection:** This usually presents with sudden, severe, tearing chest pain, which is not described in the scenario.
+
+4.  **Most Accurate Answer:**
+    *   **Stable Angina:** The symptoms align perfectly with stable angina: chest pain triggered by exertion, relieved by rest, and of short duration (5 minutes).
+
+Final Answer: A",A,True,True
+7,cot,A 26-year-old man presents with recurrent watery diarrhea after recent travel to India. Stool shows cysts and trophozoites. Cause?,"Let's analyze the patient's symptoms and lab findings to determine the most likely cause of his condition.
+
+1.  **Key Symptoms:**
+    *   Recurrent watery diarrhea
+    *   Recent travel to India
+    *   Stool shows cysts and trophozoites
+
+2.  **Possible Conditions:**
+    *   *Giardia lamblia*: Common cause of diarrhea, especially after travel to areas with poor sanitation. Cysts and trophozoites are found in stool.
+    *   *E. histolytica*: Can cause amebic dysentery, which can present with diarrhea. Cysts and trophozoites are found in stool. More likely to cause bloody diarrhea.
+    *   *C. difficile*: Typically associated with antibiotic use, causing pseudomembranous colitis. Less likely given the travel history and presence of cysts/trophozoites.
+    *   *Salmonella*: Can cause diarrhea, but typically presents with fever and abdominal cramps. Cysts and trophozoites are not found in stool.
+
+3.  **Eliminating Unlikely Options:**
+    *   *C. difficile*: Less likely due to the absence of antibiotic use in the history and the presence of cysts/trophozoites.
+    *   *Salmonella*: Less likely because cysts and trophozoites are present in the stool.
+
+4.  **Choosing the Most Accurate Answer:**
+    *   *Giardia lamblia* and *E. histolytica* are both possibilities given the presence of cysts and trophozoites. However, *Giardia lamblia* is more common with watery diarrhea, while *E. histolytica* is more common with bloody diarrhea. Given the watery diarrhea, *Giardia lamblia* is more likely.
+
+Final Answer: A",A,True,True
+8,cot,"A 48-year-old woman presents with heat intolerance, weight loss, tremors, and exophthalmos. Diagnosis?","Let's analyze the patient's symptoms step-by-step to arrive at the most likely diagnosis.
+
+1.  **Key Symptoms:**
+    *   Heat intolerance: Suggests hypermetabolic state.
+    *   Weight loss: Despite normal or increased appetite, also suggests hypermetabolic state.
+    *   Tremors: Suggests increased sympathetic activity.
+    *   Exophthalmos: Bulging eyes, a very specific sign.
+
+2.  **Possible Conditions:**
+    *   The combination of heat intolerance, weight loss, and tremors points towards hyperthyroidism (overactive thyroid).
+    *   Exophthalmos is strongly associated with Graves' disease.
+
+3.  **Eliminating Unlikely Options:**
+    *   **A: Hashimoto thyroiditis:** This is an autoimmune disease that typically causes hypothyroidism (underactive thyroid), not hyperthyroidism. So, this is unlikely.
+    *   **B: Subacute thyroiditis:** This condition can cause transient hyperthyroidism, but it is usually associated with neck pain and tenderness, which are not mentioned in the case. Also, exophthalmos is not typical.
+    *   **D: Toxic nodular goiter:** This condition can cause hyperthyroidism, but exophthalmos is not a common feature.
+
+4.  **Choosing the Most Accurate Answer:**
+    *   Graves' disease is the most likely diagnosis because it is a common cause of hyperthyroidism and is strongly associated with exophthalmos.
+
+Final Answer: C",C,True,True
+9,cot,"A 67-year-old man presents with progressive resting tremor, bradykinesia, and shuffling gait. Likely diagnosis?","Let's analyze the patient's symptoms step-by-step to arrive at the most likely diagnosis.
+
+1.  **Key Symptoms:**
+    *   Progressive resting tremor: This means the tremor is present when the muscles are at rest.
+    *   Bradykinesia: Slowness of movement.
+    *   Shuffling gait: A walking pattern characterized by short, dragging steps.
+
+2.  **Possible Conditions:**
+    *   Parkinson's disease: Resting tremor, bradykinesia, and shuffling gait are classic symptoms.
+    *   Essential tremor: Typically presents with action tremor (tremor during movement), not resting tremor.
+    *   Amyotrophic Lateral Sclerosis (ALS): Primarily affects motor neurons, leading to muscle weakness, spasticity, and sometimes fasciculations. Tremor is not a primary feature.
+    *   Multiple sclerosis (MS): Can cause a variety of neurological symptoms depending on the location of lesions in the brain and spinal cord. While tremor can occur, it's not typically a resting tremor, and bradykinesia and shuffling gait are less common as primary symptoms.
+
+3.  **Eliminate Unlikely Options:**
+    *   Essential tremor: The presence of a resting tremor makes this less likely. Essential tremor is typically an action tremor.
+    *   ALS: The key symptoms of ALS are muscle weakness, spasticity, and fasciculations, not primarily tremor, bradykinesia, and shuffling gait.
+    *   Multiple sclerosis: While MS can cause various motor symptoms, the combination of resting tremor, bradykinesia, and shuffling gait is less typical.
+
+4.  **Most Accurate Answer:**
+    *   Parkinson's disease: The combination of resting tremor, bradykinesia, and shuffling gait strongly suggests Parkinson's disease.
+
+Final Answer: A",A,True,True
+10,cot,A 25-year-old woman presents with dysuria and increased frequency. Urinalysis shows leukocyte esterase positive. Diagnosis?,"Let's break down this case:
+
+1.  **Key Symptoms:**
+    *   Dysuria (painful urination)
+    *   Increased frequency (urinating more often)
+    *   Leukocyte esterase positive (indicates white blood cells in the urine, suggesting infection/inflammation)
+
+2.  **Possible Conditions:**
+    *   Cystitis (bladder infection)
+    *   Pyelonephritis (kidney infection)
+    *   Urethritis (urethra infection)
+    *   Kidney stone (can sometimes cause urinary symptoms)
+
+3.  **Eliminating Unlikely Options:**
+    *   **Kidney stone:** While kidney stones can cause urinary frequency and sometimes dysuria, they don't typically cause a positive leukocyte esterase. The positive leukocyte esterase strongly suggests an infection.
+    *   **Pyelonephritis:** Pyelonephritis, a kidney infection, often presents with more severe symptoms than just dysuria and frequency. Typically, there would be flank pain, fever, and systemic symptoms. While it's possible, cystitis or urethritis are more likely given the limited information.
+    *   **Urethritis:** Urethritis is a possibility, and the symptoms overlap with cystitis. However, cystitis is a more common diagnosis in women presenting with these symptoms.
+
+4.  **Most Accurate Answer:**
+    *   Cystitis is the most likely diagnosis given the symptoms of dysuria, increased frequency, and a positive leukocyte esterase, without mention of fever or flank pain.
+
+Final Answer: A",A,True,True
+11,cot,A 50-year-old alcoholic presents with epigastric pain radiating to the back. Amylase elevated.,"Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   50-year-old alcoholic
+    *   Epigastric pain radiating to the back
+    *   Elevated amylase
+
+2.  **Possible Conditions:**
+    *   **Acute pancreatitis:** This is a strong possibility given the epigastric pain radiating to the back, elevated amylase, and history of alcoholism (a major risk factor).
+    *   **Peptic ulcer:** Can cause epigastric pain, but radiation to the back is less common. Elevated amylase is not typically associated with peptic ulcers unless there is penetration or perforation into the pancreas.
+    *   **GERD (Gastroesophageal Reflux Disease):** Primarily causes heartburn and regurgitation. Epigastric pain can occur, but radiation to the back and elevated amylase are not typical.
+    *   **Cholecystitis:** Usually presents with right upper quadrant pain, which may radiate to the right shoulder or back. Elevated amylase is not a primary feature, although it can occur if a gallstone obstructs the pancreatic duct.
+
+3.  **Eliminating Unlikely Options:**
+    *   **GERD:** The radiation of pain to the back and elevated amylase make GERD unlikely.
+    *   **Peptic ulcer:** While epigastric pain is present, the radiation to the back and elevated amylase are less consistent with a peptic ulcer alone. A perforated ulcer could cause elevated amylase, but the presentation would likely be more acute and severe.
+    *   **Cholecystitis:** While possible, the epigastric location of the pain and the patient's history of alcoholism make acute pancreatitis more likely.
+
+4.  **Most Accurate Answer:**
+    Given the combination of epigastric pain radiating to the back, elevated amylase, and a history of alcoholism, acute pancreatitis is the most likely diagnosis.
+
+Final Answer: A",A,True,True
+12,cot,A 35-year-old man has sudden onset pleuritic chest pain and dyspnea. D-dimer elevated.,"Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   Sudden onset pleuritic chest pain: This suggests a problem in the chest cavity, likely involving the pleura (lining of the lungs).
+    *   Dyspnea (shortness of breath): Indicates a respiratory issue.
+    *   Elevated D-dimer: This is a significant finding, as D-dimer is a protein fragment produced when a blood clot breaks down. Elevated levels suggest recent or ongoing clot formation and breakdown.
+
+2.  **Possible Conditions:**
+    *   Pulmonary embolism (PE): A blood clot in the lungs.
+    *   Pneumothorax: Air in the pleural space, causing lung collapse.
+    *   ARDS (Acute Respiratory Distress Syndrome): Severe lung inflammation and fluid buildup.
+    *   CHF (Congestive Heart Failure): Heart's inability to pump blood effectively, leading to fluid buildup in the lungs.
+
+3.  **Eliminating Unlikely Options:**
+    *   ARDS: While ARDS can cause dyspnea, it typically presents with a more gradual onset and is often associated with a known underlying condition (e.g., sepsis, pneumonia). The sudden onset and pleuritic chest pain are less typical of ARDS.
+    *   CHF: CHF can cause dyspnea, but pleuritic chest pain is not a common symptom. Also, while CHF can sometimes lead to elevated D-dimer, it's not as strongly associated as with PE.
+    *   Pneumothorax: Can cause sudden onset pleuritic chest pain and dyspnea. However, pneumothorax would not directly cause an elevated D-dimer.
+
+4.  **Most Accurate Answer:**
+    *   Pulmonary embolism (PE): The combination of sudden onset pleuritic chest pain, dyspnea, and elevated D-dimer strongly suggests PE. The pleuritic chest pain arises from the lung tissue distal to the embolism becoming ischemic and inflamed. The elevated D-dimer is a direct result of the clot formation and breakdown.
+
+Final Answer: A",A,True,True
+13,cot,"A 22-year-old woman has fever, neck stiffness, and photophobia. Kernig sign positive.","Let's analyze the symptoms and potential conditions step-by-step:
+
+1.  **Key Symptoms:**
+    *   Fever: Indicates an infection or inflammatory process.
+    *   Neck stiffness: Suggests meningeal irritation.
+    *   Photophobia: Sensitivity to light, also points to meningeal irritation or neurological issue.
+    *   Positive Kernig sign: A strong indicator of meningeal irritation.
+
+2.  **Possible Conditions:**
+    *   Bacterial meningitis: Inflammation of the meninges caused by bacteria.
+    *   Viral encephalitis: Inflammation of the brain parenchyma, often caused by a virus.
+    *   Migraine: A type of headache that can cause sensitivity to light and sound.
+    *   Subarachnoid hemorrhage: Bleeding into the space between the brain and the surrounding membrane.
+
+3.  **Eliminating Unlikely Options:**
+    *   Migraine: While photophobia can be present, fever, neck stiffness, and a positive Kernig sign are not typical migraine symptoms.
+    *   Viral encephalitis: Can cause fever and neurological symptoms, but neck stiffness and Kernig's sign are more characteristic of meningitis.
+    *   Subarachnoid hemorrhage: Can cause severe headache and neck stiffness, but fever is not a typical symptom.
+
+4.  **Choosing the Most Accurate Answer:**
+    *   Bacterial meningitis: The combination of fever, neck stiffness, photophobia, and a positive Kernig sign strongly suggests bacterial meningitis.
+
+Final Answer: A",A,True,True
+14,cot,"A 40-year-old man has polyuria, hypernatremia, and dilute urine. Diagnosis?","Let's analyze the patient's symptoms step-by-step to arrive at the most likely diagnosis.
+
+1.  **Key Symptoms:**
+    *   Polyuria (excessive urination)
+    *   Hypernatremia (high sodium levels in the blood)
+    *   Dilute urine (low urine osmolality)
+
+2.  **Possible Conditions:**
+    *   **Diabetes Insipidus (DI):** This condition results from a deficiency in antidiuretic hormone (ADH) or the kidney's inability to respond to ADH. ADH normally helps the kidneys reabsorb water. A deficiency leads to the excretion of large amounts of dilute urine, causing dehydration and hypernatremia.
+    *   **SIADH (Syndrome of Inappropriate Antidiuretic Hormone):** This condition involves excessive ADH production, leading to water retention, hyponatremia (low sodium levels), and concentrated urine.
+    *   **DKA (Diabetic Ketoacidosis):** This is a complication of diabetes mellitus, primarily type 1, characterized by hyperglycemia, ketosis, and metabolic acidosis. While polyuria can occur due to osmotic diuresis from high glucose levels, it's usually accompanied by other symptoms like thirst, abdominal pain, nausea, and vomiting. Hypernatremia is not a typical feature of DKA.
+    *   **Addison Disease (Adrenal Insufficiency):** This condition involves insufficient production of cortisol and aldosterone by the adrenal glands. Symptoms include fatigue, weakness, weight loss, hypotension, and hyponatremia. Polyuria and hypernatremia are not typical features.
+
+3.  **Eliminating Unlikely Options:**
+    *   **SIADH:** The patient has hypernatremia and dilute urine, which are the opposite of what is expected in SIADH (hyponatremia and concentrated urine). Therefore, SIADH is unlikely.
+    *   **DKA:** While polyuria can occur in DKA, hypernatremia is not a typical feature. Also, other symptoms of DKA, such as hyperglycemia, ketosis, and acidosis, are not mentioned.
+    *   **Addison Disease:** The patient has hypernatremia, which is the opposite of what is expected in Addison's disease (hyponatremia). Also, polyuria is not a typical feature.
+
+4.  **Most Accurate Answer:**
+    *   **Diabetes Insipidus:** The symptoms of polyuria, hypernatremia, and dilute urine are highly characteristic of diabetes insipidus. The lack of ADH or the kidney's inability to respond to it leads to the excretion of large amounts of dilute urine, causing dehydration and hypernatremia.
+
+Final Answer: A",A,True,True
+15,cot,A 72-year-old woman with bone pain and elevated ALP with normal calcium.,"Let's analyze the patient's symptoms step-by-step to arrive at the most likely diagnosis.
+
+1.  **Key Symptoms:**
+    *   Bone pain
+    *   Elevated Alkaline Phosphatase (ALP)
+    *   Normal Calcium
+
+2.  **Possible Conditions and Matching Symptoms:**
+    *   **Paget's Disease:** Bone pain and elevated ALP are classic signs. Calcium is typically normal.
+    *   **Osteoporosis:** Bone pain can occur, but ALP is usually normal. Calcium is also typically normal.
+    *   **Hyperparathyroidism:** Can cause bone pain and elevated ALP, but is typically associated with elevated calcium levels.
+    *   **Multiple Myeloma:** Bone pain is common, and it can sometimes elevate ALP (though less consistently than Paget's). Calcium is often elevated in multiple myeloma.
+
+3.  **Eliminating Unlikely Options:**
+    *   **Osteoporosis:** While bone pain is a symptom, the normal ALP makes this less likely.
+    *   **Hyperparathyroidism:** The normal calcium level makes this diagnosis less likely. Hyperparathyroidism typically presents with hypercalcemia.
+    *   **Multiple Myeloma:** While bone pain is present, the normal calcium makes this less likely.
+
+4.  **Choosing the Most Accurate Answer:**
+    *   **Paget's Disease:** The combination of bone pain, elevated ALP, and normal calcium strongly suggests Paget's disease.
+
+Final Answer: A",A,True,True
+16,cot,A 32-year-old woman presents with malar rash worsened by sunlight.,"Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   Malar rash: A rash on the cheeks, often butterfly-shaped.
+    *   Worsened by sunlight: Photosensitivity.
+
+2.  **Possible Conditions:**
+    *   **SLE (Systemic Lupus Erythematosus):** Malar rash is a classic symptom, and photosensitivity is common.
+    *   **Rosacea:** Can cause facial redness, but typically not a classic malar rash, and photosensitivity is less prominent.
+    *   **Dermatitis:** Can cause rashes, but the malar distribution and photosensitivity are less specific.
+    *   **Drug reaction:** Possible, but the malar rash pattern is less common unless it's a specific drug known to cause lupus-like symptoms.
+
+3.  **Eliminate Unlikely Options:**
+    *   **Rosacea:** While it can cause facial redness, the malar distribution and strong photosensitivity are less typical.
+    *   **Dermatitis:** Too broad; the malar rash points to a more specific cause.
+    *   **Drug reaction:** Possible, but SLE is a more likely diagnosis given the classic malar rash and photosensitivity. A drug reaction would be considered if SLE is ruled out.
+
+4.  **Most Accurate Answer:**
+    *   SLE is the most likely diagnosis given the classic malar rash and photosensitivity.
+
+Final Answer: A",A,True,True
+17,cot,A 70-year-old man presents with urinary hesitancy and weak stream.,"Let's analyze the patient's symptoms and potential diagnoses:
+
+1.  **Key Symptoms:**
+    *   Urinary hesitancy (difficulty starting urination)
+    *   Weak stream
+
+2.  **Possible Conditions:**
+    *   **BPH (Benign Prostatic Hyperplasia):** Enlargement of the prostate gland, common in older men, can obstruct the urethra.
+    *   **Prostate Cancer:** Can also cause urethral obstruction, similar to BPH.
+    *   **UTI (Urinary Tract Infection):** While UTIs can cause urgency and frequency, hesitancy and weak stream are less typical.
+    *   **Neurogenic Bladder:** Dysfunction of the bladder due to neurological problems, which can affect bladder emptying.
+
+3.  **Eliminating Unlikely Options:**
+    *   **UTI:** While possible, hesitancy and weak stream are not the primary symptoms. UTIs usually present with frequency, urgency, dysuria (painful urination), and sometimes hematuria (blood in urine). The question doesn't mention these.
+    *   **Neurogenic Bladder:** While possible, neurogenic bladder often presents with other neurological symptoms or a history of neurological conditions (e.g., stroke, spinal cord injury, multiple sclerosis), which are not mentioned in the question.
+
+4.  **Choosing the Most Accurate Answer:**
+    *   BPH and prostate cancer are both strong possibilities given the symptoms. However, BPH is far more common in 70-year-old men. Prostate cancer, while a concern, doesn't present with symptoms distinct from BPH in the early stages. Further testing (PSA, DRE, biopsy) would be needed to differentiate. Given the limited information, BPH is the most likely initial diagnosis.
+
+Final Answer: A",A,True,True
+18,cot,A 28-year-old man presents with migratory polyarthritis and a target rash.,"Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   Migratory polyarthritis: Joint pain that moves from one joint to another.
+    *   Target rash (also known as erythema migrans): A characteristic bullseye-shaped rash.
+
+2.  **Possible Conditions:**
+    *   **Lyme disease:** Can present with erythema migrans and migratory arthritis.
+    *   **Rheumatoid arthritis:** Typically presents with symmetrical polyarthritis, not migratory, and does not cause a target rash.
+    *   **Systemic Lupus Erythematosus (SLE):** Can cause arthritis, but the rash is typically a malar rash (butterfly rash) on the face, not a target rash.
+    *   **Gout:** Usually presents with acute monoarthritis (typically in the big toe), not migratory polyarthritis, and does not cause a target rash.
+
+3.  **Eliminate Unlikely Options:**
+    *   **Rheumatoid arthritis:** The migratory nature of the arthritis and the presence of a target rash make this unlikely.
+    *   **SLE:** The target rash is not typical of SLE.
+    *   **Gout:** The migratory polyarthritis and target rash are inconsistent with gout.
+
+4.  **Most Accurate Answer:**
+    *   Lyme disease is the most likely diagnosis given the presence of both migratory polyarthritis and a target rash (erythema migrans).
+
+Final Answer: A",A,True,True
+19,cot,"A 45-year-old man presents with RUQ pain, fever, jaundice (Charcot triad).","Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   RUQ pain (Right Upper Quadrant pain)
+    *   Fever
+    *   Jaundice
+
+2.  **Possible Conditions:**
+    *   **Cholangitis:** Inflammation of the bile ducts.
+    *   **Cholecystitis:** Inflammation of the gallbladder.
+    *   **Pancreatitis:** Inflammation of the pancreas.
+    *   **Hepatitis:** Inflammation of the liver.
+
+3.  **Eliminating Unlikely Options:**
+    *   **Pancreatitis:** While RUQ pain can sometimes be present, pancreatitis typically presents with epigastric pain radiating to the back. Jaundice can occur if the pancreatic head obstructs the bile duct, but the Charcot triad is not typical.
+    *   **Hepatitis:** Hepatitis can cause RUQ pain and jaundice, but fever is not always a prominent feature, and the Charcot triad is not associated with hepatitis.
+    *   **Cholecystitis:** Can cause RUQ pain, but fever and jaundice are less common unless there is a complication such as choledocholithiasis (gallstone in the common bile duct).
+
+4.  **Most Accurate Answer:**
+    *   **Cholangitis:** The Charcot triad (RUQ pain, fever, jaundice) is highly suggestive of ascending cholangitis, an infection of the bile ducts. This is often caused by a blockage (e.g., gallstone) in the common bile duct, leading to bacterial overgrowth and inflammation.
+
+Final Answer: A",A,True,True
+20,cot,"A 29-year-old woman with new-onset anxiety, palpitations, and elevated free T4.","Let's analyze the patient's symptoms step-by-step:
+
+1.  **Key Symptoms:**
+    *   New-onset anxiety
+    *   Palpitations
+    *   Elevated free T4
+
+2.  **Possible Conditions:**
+    *   **Hyperthyroidism:** Anxiety, palpitations, and elevated free T4 are classic symptoms.
+    *   **Hypothyroidism:** While anxiety can sometimes occur, hypothyroidism typically presents with fatigue, weight gain, and depression. Elevated T4 would be very unlikely.
+    *   **Pheochromocytoma:** This tumor of the adrenal gland causes episodic release of catecholamines (epinephrine and norepinephrine), leading to anxiety, palpitations, and hypertension. While anxiety and palpitations fit, it doesn't directly explain elevated T4.
+    *   **Cushing Syndrome:** This condition involves prolonged exposure to high levels of cortisol. Anxiety can occur, but the primary symptoms are weight gain, moon face, buffalo hump, and skin changes. It doesn't directly explain elevated T4.
+
+3.  **Eliminate Unlikely Options:**
+    *   **Hypothyroidism:** The elevated free T4 makes this highly unlikely.
+    *   **Pheochromocytoma:** While anxiety and palpitations are present, the elevated T4 is not a typical feature. Pheochromocytoma primarily affects catecholamine levels, not thyroid hormones.
+    *   **Cushing Syndrome:** The symptoms don't align well with the typical presentation of Cushing syndrome, and it doesn't explain the elevated T4.
+
+4.  **Most Accurate Answer:**
+    *   Hyperthyroidism is the most likely diagnosis, as it directly explains all three symptoms: anxiety, palpitations, and elevated free T4.
+
+Final Answer: A",A,True,True
